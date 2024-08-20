@@ -43,7 +43,7 @@ const NavBar: React.FC = () => {
 
     return (
         <>
-            <header className="pt-2 pb-3 bg-white fixed w-full z-20">
+            <header className=" py-3 bg-white fixed w-full z-20">
                 <div className="flex justify-between items-center maxWidth">
 
                     <div>
@@ -61,25 +61,25 @@ const NavBar: React.FC = () => {
                         </button>
                     </div>
 
-                    <nav className={`lg:flex ${isOpen ? 'block' : 'hidden'} custom-height text-center bg-GreenP flex flex-col gap-10 items-center justify-center  absolute left-0 z-10 top-[90px] uppercase w-full lg:flex lg:h-[39px] lg:flex-row lg:static lg:w-auto lg:bg-transparent`}>
+                    <nav className={`lg:flex ${isOpen ? 'block' : 'hidden'} custom-height text-center  bg-GreenP flex flex-col gap-10 items-center justify-center  absolute left-0 z-10 top-[68px] uppercase w-full lg:flex lg:h-[39px] lg:flex-row lg:static lg:w-auto lg:bg-transparent`}>
                             <ScrollLink duration={500} offset={-92} to='inicio' smooth={true} onClick={closeMenu}>
-                                <span className={`block  py-2 cursor-pointer text-black  ${activeSection === 'inicio' ? 'border-b-[2px] lg:border-GreenP' : ''}`}>Início</span>
+                                <span className={`block  py-2 cursor-pointer text-GreenS ${activeSection === 'inicio' ? 'border-b-[2px] lg:border-GreenP' : ''}`}>Início</span>
                             </ScrollLink>
 
                             <ScrollLink duration={500} offset={-80} to='about' smooth={true} onClick={closeMenu}>
-                                <span className={`block  py-2 cursor-pointer text-black  ${activeSection === 'about' ? 'border-b-[2px] lg:border-GreenP' : ''}`}>Sobre nós</span>
+                                <span className={`block  py-2 cursor-pointer text-GreenS ${activeSection === 'about' ? 'border-b-[2px] lg:border-GreenP' : ''}`}>Sobre nós</span>
                             </ScrollLink>
 
                             <ScrollLink duration={500} offset={-80} to='services' smooth={true} onClick={closeMenu}>
-                                <span className={`block  py-2 cursor-pointer text-black  ${activeSection === 'services' ? 'border-b-[2px] lg:border-GreenP' : ''}`}>Serviços</span>
+                                <span className={`block  py-2 cursor-pointer text-GreenS ${activeSection === 'services' ? 'border-b-[2px] lg:border-GreenP' : ''}`}>Serviços</span>
                             </ScrollLink>
 
                             <ScrollLink duration={500} offset={0} to='depo' smooth={true} onClick={closeMenu}>
-                                <span className={`block  py-2 cursor-pointer text-black  ${activeSection === 'depo' ? 'border-b-[2px] lg:border-GreenP' : ''}`}>Depoimentos</span>
+                                <span className={`block  py-2 cursor-pointer text-GreenS ${activeSection === 'depo' ? 'border-b-[2px] lg:border-GreenP' : ''}`}>Depoimentos</span>
                             </ScrollLink>
 
                             <ScrollLink duration={500} offset={0} to='contact' smooth={true} onClick={closeMenu}>
-                                <span className={`block  py-2 cursor-pointer text-black  ${activeSection === 'contact' ? 'border-b-[2px] lg:border-GreenP' : ''}`}>Contato</span>
+                                <span className={`block  py-2 cursor-pointer text-GreenS ${activeSection === 'contact' ? 'border-b-[2px] lg:border-GreenP' : ''}`}>Contato</span>
                             </ScrollLink>
                     </nav>
 
