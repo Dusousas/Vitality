@@ -3,8 +3,8 @@ export default function Depoimentos() {
         <>
             <section id="depo" className='custom py-20 bgDepo'>
                 <div className='maxWidth'>
-                    <p className="text-BlueP text-xl uppercase text-center">Depoimentos</p>
-                    <h1 className="text-GreenS text-4xl font-semibold uppercase text-center">O que dizem os nossos clientes:</h1>
+                    <p className="text-Roxo text-xl uppercase text-center">Depoimentos</p>
+                    <h1 className="text-Rosa  text-4xl font-semibold uppercase text-center">O que dizem os nossos clientes:</h1>
 
                     <div className="flex flex-col gap-y-8 items-center justify-center gap-x-8 mt-20 lg:flex-row">
                         <article className="bg-white py-8 px-4 rounded-md flex flex-col justify-center items-center max-w-[400px]">

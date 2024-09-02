@@ -18,7 +18,11 @@ const config: Config = {
         "GreenP": "#3F7B86",
         "GreenS": "#CDDC48",
         "BlueP": "#293952",
-        "GrayP": "#F0F2F3"
+        "GrayP": "#F0F2F3",
+
+        "Rosa": "#da9fe5",
+        "Roxo": "#390584"
+        
       },
     },
   },

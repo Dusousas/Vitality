@@ -10,7 +10,7 @@ export default function Main() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1 }}>Uma clínica projetada para cuidar</motion.p>
 
-                    <motion.h1 className="text-GreenS font-bold text-4xl uppercase text-center lg:text-7xl"
+                    <motion.h1 className="text-Rosa font-bold text-4xl uppercase text-center lg:text-7xl"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ duration: 1, delay: 0.5 }}>Centro Avançado em saúde integrada </motion.h1>

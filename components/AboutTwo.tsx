@@ -6,8 +6,8 @@ export default function AboutTwo() {
         <>
             <section id="services" className='custom bg-GrayP py-20'>
                 <div className='maxWidth flex flex-col items-center'>
-                    <p className="text-BlueP text-xl uppercase text-center">Osteopatia</p>
-                    <h1 className="text-GreenS text-4xl font-semibold uppercase text-center">O Caminho para a Saúde Integral</h1>
+                    <p className="text-Roxo text-xl uppercase text-center">Osteopatia</p>
+                    <h1 className="text-Rosa text-4xl font-semibold uppercase text-center">A mudança acontece através do movimento, e o movimento cura!</h1>
                     <p className="text-BlueP mt-4 text-lg max-w-[900px] text-center">
                         A osteopatia é uma abordagem terapêutica que visa tratar e prevenir condições de saúde por meio de técnicas manuais. Focando na inter-relação entre o corpo, mente e espírito, nossos tratamentos promovem o equilíbrio natural do organismo, aliviando dores e restaurando a mobilidade. Seja para melhorar a postura, tratar dores crônicas, ou simplesmente cuidar do bem-estar geral, estamos aqui para guiar você em sua jornada para uma vida mais saudável e equilibrada.
                     </p>

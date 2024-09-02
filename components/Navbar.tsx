@@ -47,11 +47,11 @@ const NavBar: React.FC = () => {
                 <div className="flex justify-between items-center maxWidth">
 
                     <div>
-                        <a className='text-black' href=""><img className='w-[80px]' src="/Logo.png" alt="" /></a>
+                        <a className='text-xl font-black uppercase text-Rosa' href="">Vida Leve</a>
                     </div>
                     <div className="lg:hidden">
                         <button onClick={toggleMenu} className="text-black focus:outline-none">
-                            <svg className="w-8 h-8 hover:text-GreenP" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <svg className="w-8 h-8 hover:text-Rosa" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 {isOpen ? (
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
                                 ) : (
@@ -63,23 +63,23 @@ const NavBar: React.FC = () => {
 
                     <nav className={`lg:flex ${isOpen ? 'block' : 'hidden'} custom-height text-center  bg-GreenP flex flex-col gap-10 items-center justify-center  absolute left-0 z-10 top-[68px] uppercase w-full lg:flex lg:h-[39px] lg:flex-row lg:static lg:w-auto lg:bg-transparent`}>
                             <ScrollLink duration={500} offset={-92} to='inicio' smooth={true} onClick={closeMenu}>
-                                <span className={`block  py-2 cursor-pointer text-GreenS ${activeSection === 'inicio' ? 'border-b-[2px] lg:border-GreenP' : ''}`}>Início</span>
+                                <span className={`block  py-2 cursor-pointer text-Rosa ${activeSection === 'inicio' ? 'border-b-[2px] lg:border-Roxo' : ''}`}>Início</span>
                             </ScrollLink>
 
                             <ScrollLink duration={500} offset={-80} to='about' smooth={true} onClick={closeMenu}>
-                                <span className={`block  py-2 cursor-pointer text-GreenS ${activeSection === 'about' ? 'border-b-[2px] lg:border-GreenP' : ''}`}>Sobre nós</span>
+                                <span className={`block  py-2 cursor-pointer text-Rosa ${activeSection === 'about' ? 'border-b-[2px] lg:border-Roxo' : ''}`}>Sobre nós</span>
                             </ScrollLink>
 
                             <ScrollLink duration={500} offset={-80} to='services' smooth={true} onClick={closeMenu}>
-                                <span className={`block  py-2 cursor-pointer text-GreenS ${activeSection === 'services' ? 'border-b-[2px] lg:border-GreenP' : ''}`}>Serviços</span>
+                                <span className={`block  py-2 cursor-pointer text-Rosa ${activeSection === 'services' ? 'border-b-[2px] lg:border-Roxo' : ''}`}>Serviços</span>
                             </ScrollLink>
 
                             <ScrollLink duration={500} offset={0} to='depo' smooth={true} onClick={closeMenu}>
-                                <span className={`block  py-2 cursor-pointer text-GreenS ${activeSection === 'depo' ? 'border-b-[2px] lg:border-GreenP' : ''}`}>Depoimentos</span>
+                                <span className={`block  py-2 cursor-pointer text-Rosa ${activeSection === 'depo' ? 'border-b-[2px] lg:border-Roxo' : ''}`}>Depoimentos</span>
                             </ScrollLink>
 
                             <ScrollLink duration={500} offset={0} to='contact' smooth={true} onClick={closeMenu}>
-                                <span className={`block  py-2 cursor-pointer text-GreenS ${activeSection === 'contact' ? 'border-b-[2px] lg:border-GreenP' : ''}`}>Contato</span>
+                                <span className={`block  py-2 cursor-pointer text-Rosa ${activeSection === 'contact' ? 'border-b-[2px] lg:border-Roxo' : ''}`}>Contato</span>
                             </ScrollLink>
                     </nav>
 
